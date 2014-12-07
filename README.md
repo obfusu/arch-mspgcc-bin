@@ -10,18 +10,11 @@ Ref Link: https://aur.archlinux.org/packages/mspgcc-binutils-bin/
 
 mspgcc Link : http://sourceforge.net/projects/mspgcc/
 
-
 Packages:
-
-  1) mspgcc-binutils
-
-  2) mspgcc-gcc
-
-  3) mspgcc-libc
-
-  4) mspgcc-mcu       # Header Files and linker scripts
+  - mspgcc-binutils
+  - mspgcc-gcc
+  - mspgcc-libc
+  - mspgcc-mcu       (Header Files and linker scripts, not actual binaries)
 
   
-The AUR links have not been updated and requires modification for successful installation.
-
-Thus users wanting a readymade solution for mspgcc under Arch can utilize these.
+The AUR links have not been updated and requires modification for successful installation.Thus users wanting a ready-to-use mspgcc under Arch can utilize these.
