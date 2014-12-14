@@ -1,20 +1,23 @@
 arch-mspgcc-bin
 ===============
 
-GNU Compliler Suite for msp430 - binary packages for Arch linux and its derivatives
-
-(Based on mspgcc-20120406 LTS)
+GNU Compliler Suite for msp430 - binary packages for Arch linux and its derivatives  (Based on mspgcc-20120406 LTS)
 
 
-Ref Link: https://aur.archlinux.org/packages/mspgcc-binutils-bin/
+**Ref Links:**  
+AUR (binutils,gcc,libc): https://aur.archlinux.org/packages/mspgcc-binutils-bin/  
+SourceForge (msp430mcu): http://sourceforge.net/projects/mspgcc/files/msp430mcu/msp430mcu-20120406.tar.bz2/download  
+Launchpad (gdb - 20111205): https://launchpad.net/ubuntu/+source/gdb-msp430
 
-mspgcc Link : http://sourceforge.net/projects/mspgcc/
+**Upstream Link:**
+SourceForge: http://sourceforge.net/projects/mspgcc/
 
 Packages:
   - mspgcc-binutils
   - mspgcc-gcc
   - mspgcc-libc
-  - mspgcc-mcu       (Header Files and linker scripts, not actual binaries)
+  - mspgcc-mcu-bin       (Header Files and linker scripts, not actual binaries)
+  - mspgcc-gdb-bin	 (Based on 20111205)
 
   
-The AUR links have not been updated and requires modification for successful installation.Thus users wanting a ready-to-use mspgcc under Arch can utilize these.
+Some of the mspgcc AUR links have not been updated and new users may find difficulty in setting up mspgcc on Arch Linux. Thus such users may utilize the ready-made pacman packages here. These packages were created from debian binary packages from Ubuntu repositories.
